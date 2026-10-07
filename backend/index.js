@@ -20,7 +20,7 @@ connectDB();
 const app = express();
 
 app.get("/", (req,res) => {
-    res.send("shopnest backend working");
+    res.send("CARTIVO backend working");
 });
 
 app.use(cors({

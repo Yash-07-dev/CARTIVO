@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "cartivo-backend",
   "version": "1.0.0",
-  "description": "shopnest-backend",
+  "description": "CARTIVO backend",
   "keywords": [
     "ecom"
   ],

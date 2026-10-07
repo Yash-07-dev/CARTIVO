@@ -32,11 +32,11 @@ const registerUser =  async (req,res) => {
             const otp = Math.floor(100000 + Math.random() * 900000).toString();
 
             const message = `
-            Welcome to shopnest,${name}! thank you for registration with us.we are exited to share 
-            Your OTP for shopnest registration is : ${otp}`;
+            Welcome to CARTIVO,${name}! thank you for registration with us.we are exited to share
+            Your OTP for CARTIVO registration is : ${otp}`;
             
 
-          await sendEmail(email,`Welcome to shopnest - Your otp for registration`,message);
+          await sendEmail(email,`Welcome to CARTIVO - Your otp for registration`,message);
 
           res.status(201).json({
             _id: user._id,
